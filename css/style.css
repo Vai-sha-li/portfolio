@@ -7,25 +7,18 @@ body
 	font-weight: 400;
 }
 
-/* Works on Firefox */
-* {
-  scrollbar-width: thin;
-  scrollbar-color: white grey;
+body::-webkit-scrollbar {
+  width: 10px;               /* width of the entire scrollbar */
 }
 
-/* Works on Chrome, Edge, and Safari */
-*::-webkit-scrollbar {
-  width: 8px;
+body::-webkit-scrollbar-track {
+  background: grey;        /* color of the tracking area */
 }
 
-*::-webkit-scrollbar-track {
-  background: grey;
-}
-
-*::-webkit-scrollbar-thumb {
-  background-color: white;
-  border-radius: 16px;
-  border: 2px solid grey;
+body::-webkit-scrollbar-thumb {
+  background-color: grey;    /* color of the scroll thumb */
+  border-radius: 18px;       /* roundness of the scroll thumb */
+  border: 3px solid white;  /* creates padding around scroll thumb */
 }
 
 /* start all section */
