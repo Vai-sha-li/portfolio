@@ -15,17 +15,17 @@ body
 
 /* Works on Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
-  width: 12px;
+  width: 8px;
 }
 
 *::-webkit-scrollbar-track {
-  background: white;
+  background: grey;
 }
 
 *::-webkit-scrollbar-thumb {
   background-color: white;
-  border-radius: 20px;
-  border: 3px solid grey;
+  border-radius: 16px;
+  border: 2px solid grey;
 }
 
 /* start all section */
